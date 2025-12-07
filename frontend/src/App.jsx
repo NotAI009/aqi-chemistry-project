@@ -568,7 +568,9 @@ function ChemistryTab() {
       <h2 className="text-lg font-semibold mb-1">
         Chemistry of Major AQI Pollutants
       </h2>
-    
+      <p className="text-slate-300">
+  
+      </p>
 
       <ul className="space-y-3">
         <li>
