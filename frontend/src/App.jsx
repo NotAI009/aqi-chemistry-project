@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Papa from "papaparse";
+import { API_BASE } from "./api";
+
 
 import {
   Chart as ChartJS,
@@ -78,11 +80,11 @@ function App() {
         o3: parseFloat(form.o3) || 0,
       };
 
-      const res = await fetch("http://127.0.0.1:8000/api/calc-aqi", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
+     const res = await fetch(`${API_BASE}/api/calc-aqi`, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(payload),
+});
 
       if (!res.ok) throw new Error("Backend error");
       const data = await res.json();
