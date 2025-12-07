@@ -532,8 +532,7 @@ function OverviewTab({
             Pollutant profile for this reading
           </h3>
           <p className="text-[11px] text-slate-400 mb-2">
-            Tallest bar = dominant pollutant. In viva you can link this to
-            combustion (SO₂, NO₂, CO), secondary aerosol formation (sulfates,
+            Tallest bar = dominant pollutant. (SO₂, NO₂, CO), secondary aerosol formation (sulfates,
             nitrates) or smog (O₃).
           </p>
           <Bar
@@ -569,10 +568,7 @@ function ChemistryTab() {
       <h2 className="text-lg font-semibold mb-1">
         Chemistry of Major AQI Pollutants
       </h2>
-      <p className="text-slate-300">
-        Use these points directly in your report / viva to connect numerical AQI
-        values with atmospheric chemistry.
-      </p>
+    
 
       <ul className="space-y-3">
         <li>
@@ -749,7 +745,7 @@ function HealthTab() {
     <section className="bg-slate-900/80 border border-slate-700 rounded-2xl p-5 shadow-xl space-y-4">
       <h2 className="text-lg font-semibold">AQI Categories & Health Effects</h2>
       <p className="text-xs md:text-sm text-slate-300">
-        Explain in viva: “AQI compresses concentrations of PM, SO₂, NO₂, CO and
+       “AQI compresses concentrations of PM, SO₂, NO₂, CO and
         O₃ into a single scale that directly relates to health impact.”
       </p>
 
