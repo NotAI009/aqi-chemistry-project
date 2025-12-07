@@ -784,8 +784,7 @@ function DataTab({ csvData, handleFileUpload }) {
       <section className="bg-slate-900/80 border border-slate-700 rounded-2xl p-5 shadow-xl">
         <h2 className="text-lg font-semibold mb-1">Raw Data Explorer</h2>
         <p className="text-xs text-slate-300 mb-2">
-          “We used a React-based data explorer (similar to
-          Pandas filtering) to inspect and verify the AQI dataset.”
+          “We used a React-based data explorer to inspect and verify the AQI dataset.”
         </p>
         <p className="text-[11px] text-slate-400 mb-2">
           You can re-upload a CSV here if you want to test a different file.
